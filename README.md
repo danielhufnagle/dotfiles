@@ -3,7 +3,7 @@ Configuration for Hyprland by danielhufnagle
 # Contents
 - [Yapping](#Yapping)
 - [Drag and Drop Install](#drag-and-drop-install)
-- [Manual Install (Fedora)](#manual-install-fedora)
+- [Manual Install and Configuration (Fedora)](#manual-install-and-configuration-fedora)
 - [Manual Install (Arch)](#manual-install-arch)
 # Yapping
 These are my dotfiles for my hyprland config. No, these do not install automatically. There are two install methods: the first is the "Drag and Drop Install" which is the generic install process of cloning the repo and then just moving the files to their appropriate locations. This is much simpler, but honestly I find that this is much less helpful for absolute beginners. The "Manual Install" will guide you step by step in configuring your system exactly the way that I have here. This should hopefully help you better learn how config files work and help you make your own. I'm using Fedora as a primary basis because I think it blends stability with having current software and is also a fairly beginner friendly distro. Also, it comes with GNOME by default which gives a nice fallback if you find this isn't for you.
