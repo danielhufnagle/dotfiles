@@ -11,8 +11,7 @@
 }
 
 #clock {
-  /*color: #fff;*/
-  color: #a89984;
+  color: #fff;
   margin-left: 4px;
 }
 
@@ -47,7 +46,6 @@
 #pulseaudio {
   color: #b16286;
   margin-right: 4px;
-  padding-right: 4px;
 }
 
 #cpu {
@@ -68,13 +66,6 @@
 #backlight {
   color: #98971a;
   margin-right: 4px;
-  padding-right: 4px;
-}
-
-#battery {
-  color: #458588;
-  margin-right: 6px;
-  padding-right: 6px;
 }
 
 #custom-powermenu {

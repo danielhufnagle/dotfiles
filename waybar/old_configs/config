@@ -16,6 +16,10 @@
     "hyprland/window"
   ],
   "modules-right": [
+    "network",
+    "temperature",
+    "memory",
+    "cpu",
     "backlight",
     "pulseaudio",
     "battery",
@@ -45,11 +49,35 @@
   "hyprland/window": {
     "format": "{}"
   },
+  "network": {
+    "format": "󰖩 ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "interface": "enp34s0",
+    "interval": 2
+  },
+  "temperature": {
+    "format": "{icon} {temperatureC}°C ",
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "memory": {
+    "format": "󰍛 {}% ",
+    "tooltip": "false"
+  },
+  "cpu": {
+    "format": " {usage}% ",
+    "tooltip": "false"
+  },
   "backlight": {
-    "format": "󰃝  {percent}%"
+    "format": "{percent}%"
   },
   "pulseaudio": {
-    "format": "  {volume}%",
+    "format": " {volume}%",
     "scroll-step": 1,
     "on-click": "pavucontrol"
   },
