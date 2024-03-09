@@ -52,7 +52,7 @@ Now install Oh-My-Zsh to make Zsh look pretty.
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 ### Installing VS Code
-Sometimes, I find neovim just isn't ideal for some projects (namely jupyter notebooks). [Install instructions](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions).
+Sometimes, I find neovim just isn't ideal for some projects (namely jupyter notebooks). [Install instructions](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions). To fix fractional scaling issues refer to [this reddit post](https://www.reddit.com/r/Fedora/comments/wpkws3/blurry_vscode_on_wayland_fractional_scaling/?rdt=60441&onetap_auto=true&one_tap=true)
 ### Installing Obsidian
 This is how I take all of my notes these days. Install with flatpak.
 ```
